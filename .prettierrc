@@ -1,5 +1,19 @@
 {
-    "trailingComma": "none",
-    "semi": false,
-    "singleQuote": true
-  }
+  "trailingComma": "none",
+  "semi": false,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": [
+        "*.js",
+        "*.jsx",
+        "*.ts",
+        "*.tsx",
+        "*.json",
+        "*.html",
+        "*.css",
+        "*.scss"
+      ]
+    }
+  ]
+}
